@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <!-- <link rel="preload" href="fonts/DaysOne-Regular.woff2" as="font"> -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    
+
+<header class="header">
+
+</header>
+
+
+<main class="main">
+
+<section class="tabs">
+
+    <div class="tabs__wrapper">
+
+        <div class="tabs__box">
+
+            <div class="tabs__list">
+                <button class="tabs__btn" data-tab="#tab_1">Горный велосипед</button>
+                <button class="tabs__btn" data-tab="#tab_2">Женский велосипед</button>
+            </div>
+
+            <!-- Вкладки в режиме аккардион -->
+            <button class="tab__accordion accordion__btn">Горный велосипед</button>
+
+            <div class="tabs__container tabs__conteiner-mobile" id="tab_1">
+
+                <div class="tabs__content-top">
+
+                    <div class="tabs__img">
+
+                        <picture>
+                            <source srcset="images/static/bicycle.png" media="(min-width: 767px)">
+                            <img class="tabs__img-mobile" src="images/static/bicycle-mobile.png" alt="bicycle">
+                        </picture>
+
+                    </div>
+
+                    <div class="tabs__content">
+    
+                        <h1 class="tabs__content-title">Велосипед STELS Navigator 510 HD 26 2022</h1>
+
+                        <p class="tabs__content-description">Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+
+                        <p class="tabs__content-description">Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+    
+                    </div>
+    
+                </div>
+
+                <hr class="tabs__line">
+
+                <div class="tabs__content-bottom">
+
+                    <h2 class="tabs__content-heading">Характеристики</h2>
+
+                    <div class="tabs__content-inner">
+
+                        <ol class="tabs__content-list tabs__content-list-left">
+                            <li class="tabs__content-item">1. Двойной обод</li>
+                            <li class="tabs__content-item">2. Алюминиевый сплав</li>
+                        </ol>
+
+                        <ol class="tabs__content-list tabs__content-right">
+                            <li value="3" class="tabs__content-item">3. Колеса диаметром 26 дюймов</li>
+                            <li value="4" class="tabs__content-item">4. Покрышки 26х1,95"</li>
+                        </ol>
+
+                    </div>
+
+                    <h3 class="tabs__content-heading tabs__content-heading-bottom">Добавить характеристику</h3>
+
+                    <form class="tabs__content-form">
+
+                        <p>
+                            <input class="tabs__content-input" type="text" placeholder="Алюминиевый сплав" required>
+                        </p>
+
+                        <button class="tabs__content-button" type="submit">Добавить</button>
+
+                    </form>
+
+                    <div class="tabs__content-cancel">
+
+                        <button class="tabs__button-ok">Окей</button>
+
+                        <button class="tabs__button-cancel">Отмена</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Вкладки в режиме аккардион -->
+            <button class="tab__accordion accordion__btn">Женский велосипед</button>
+
+            <div class="tabs__container tabs__conteiner-mobile" arial-hidden="true" id="tab_2">
+
+                <div class="tabs__content-top">
+
+                    <div class="tabs__img">
+
+                        <picture>
+                            <source srcset="images/static/bicycle_women.png" media="(min-width: 767px)">
+                            <img class="tabs__img-mobile" src="images/static/bicycle_women-mobile.png" alt="bicycle">
+                        </picture>
+
+                    </div>
+
+                    <div class="tabs__content">
+    
+                        <h1 class="tabs__content-title">Велосипед SCHWINN Traveler women 2022</h1>
+
+                        <p class="tabs__content-description">Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.</p>
+
+                        <p class="tabs__content-description">На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+    
+                    </div>
+    
+                </div>
+
+                <hr class="tabs__line">
+
+                <div class="tabs__content-bottom">
+
+                    <h2 class="tabs__content-heading">Характеристики</h2>
+
+                    <div class="tabs__content-inner">
+
+                        <ol class="tabs__content-list tabs__content-list-left">
+                            <li class="tabs__content-item">
+                                <img src="images/icon/bicycle_icon.svg" alt="bicycle">
+                                Стальная рама</li>
+                            <li class="tabs__content-item">
+                                <img src="images/icon/bicycle_icon.svg" alt="bicycle">
+                                Жесткая вилка</li>
+                        </ol>
+
+                        <ol class="tabs__content-list tabs__content-right">
+                            <li value="3" class="tabs__content-item">
+                                <img src="images/icon/bicycle_icon.svg" alt="bicycle">
+                                Колеса диаметром 24 дюймов
+                            </li>
+                            <li value="4" class="tabs__content-item">
+                                <img src="images/icon/bicycle_icon.svg" alt="bicycle">
+                                7 скоростей</li>
+                        </ol>
+
+                    </div>
+
+                    <h3 class="tabs__content-heading tabs__content-heading-bottom">Добавить характеристику</h3>
+
+                    <form class="tabs__content-form">
+
+                        <p>
+                            <input class="tabs__content-input" type="text" placeholder="Алюминиевый сплав" required>
+                        </p>
+
+                        <button class="tabs__content-button" type="submit">Добавить</button>
+
+                    </form>
+
+                    <div class="tabs__content-cancel">
+
+                        <button class="tabs__button-ok">Окей</button>
+
+                        <button class="tabs__button-cancel">Отмена</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+</footer>
+
+
+    <script src="js/main.js"></script>
+    </body>
+</html>
